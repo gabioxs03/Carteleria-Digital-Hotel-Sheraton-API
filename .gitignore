@@ -1,0 +1,28 @@
+# ========================
+# ARCHIVOS DE VISUAL STUDIO
+# ========================
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+# ========================
+# ARCHIVOS DE COMPILACIÓN
+# ========================
+[Bb]in/
+[Oo]bj/
+*.log
+
+# ========================
+# BASES DE DATOS LOCALES
+# ========================
+*.mdf
+*.ldf
+*.ndf
+*.bak
+
+# ========================
+# OTROS (MAC / SO)
+# ========================
+.DS_Store

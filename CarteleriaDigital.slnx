@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="CarteleriaDigital.Api/CarteleriaDigital.Api.csproj" />
+  <Project Path="CarteleriaDigital.Application/CarteleriaDigital.Application.csproj" />
+  <Project Path="CarteleriaDigital.Data/CarteleriaDigital.Data.csproj" />
+  <Project Path="CarteleriaDigital.Domain/CarteleriaDigital.Domain.csproj" />
+</Solution>
