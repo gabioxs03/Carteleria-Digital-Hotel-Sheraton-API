@@ -18,21 +18,21 @@ public partial class CarteleriaDigitalDbContext : DbContext
 
     public virtual DbSet<ContenidoMultimedia> ContenidoMultimedia { get; set; }
 
-    public virtual DbSet<ListaItem> ListaItems { get; set; }
+    public virtual DbSet<ListaItem> ListaItem { get; set; }
 
-    public virtual DbSet<ListaReproduccion> ListaReproduccions { get; set; }
+    public virtual DbSet<ListaReproduccion> ListaReproduccion { get; set; }
 
-    public virtual DbSet<Programacion> Programacions { get; set; }
+    public virtual DbSet<Programacion> Programacion { get; set; }
 
-    public virtual DbSet<RegistroReproduccion> RegistroReproduccions { get; set; }
+    public virtual DbSet<RegistroReproduccion> RegistroReproduccion { get; set; }
 
-    public virtual DbSet<Rol> Rols { get; set; }
+    public virtual DbSet<Rol> Rol { get; set; }
 
-    public virtual DbSet<Terminal> Terminals { get; set; }
+    public virtual DbSet<Terminal> Terminal { get; set; }
 
-    public virtual DbSet<Usuario> Usuarios { get; set; }
+    public virtual DbSet<Usuario> Usuario { get; set; }
 
-    public virtual DbSet<UsuarioRol> UsuarioRols { get; set; }
+    public virtual DbSet<UsuarioRol> UsuarioRol { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
